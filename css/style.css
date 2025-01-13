@@ -1,0 +1,89 @@
+body {
+  background-color: papayawhip;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: "poppins", sans-serif !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url("/img/INDOMARCO.png");
+  background-size: cover;
+  height: 640px;
+}
+
+.display-4 {
+  color: white !important;
+  padding-top: 100px;
+  font-weight: 500;
+}
+
+/* About */
+.about {
+  text-align: center;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+.about h3 {
+  font-size: 53px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 90px;
+}
+
+.about p {
+  font-size: 20px;
+  margin: 40px 0;
+  font-weight: 200;
+}
+
+/* products */
+.hovered-card {
+  transition: 0.5s;
+}
+
+/* Hover */
+.nav-link:hover {
+  border-bottom: 3px solid rgb(225, 225, 78);
+}
+
+.hovered-card:hover {
+  transform: scale(1.1);
+}
+
+/* desktop versi */
+@media (min-width: 992px) {
+  .navbar {
+    background-color: transparent !important;
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .navbar-brand {
+    color: rgb(99, 224, 99) !important;
+    font-size: 30px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    font-weight: 900;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+    height: 640px;
+  }
+
+  .display-4 {
+    padding-top: 200px;
+  }
+
+  .about {
+    text-align: left;
+  }
+}
