@@ -9,7 +9,7 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-  background-image: url("/img/INDOMARCO.png");
+  background-image: url("../img/INDOMARCO.png");
   background-size: cover;
   height: 640px;
 }
